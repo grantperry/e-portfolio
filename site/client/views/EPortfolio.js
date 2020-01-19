@@ -27,7 +27,7 @@ export const P1 = () => {
 				<img
 					src="https://www.researchgate.net/profile/Tom_Neubert2/publication/332210246/figure/fig7/AS:744014353530880@1554398253226/Block-diagram-of-the-AtmoCube-A1-payload-electronics-for-details-see-Neubert-et-al-20.png"
 					style={{width: "100%", height: "auto"}}/>
-			Block diagram of a similar Main Mission Module and it's payloads. It shows the complex relationship between the SoC (Processor) and payloads (the left two peripherals). My project deals with the communications implied by the arrows in this diagram.
+			[1] Block diagram of a similar Main Mission Module and it's payloads. It shows the complex relationship between the SoC (Processor) and payloads (the left two peripherals). My project deals with the communications implied by the arrows in this diagram.
 			</p>
 		</div>
 	);
@@ -64,7 +64,7 @@ export const P3 = () => {
 				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/CSIRO_ScienceImage_3881_Five_Antennas_at_Narrabri_-_restoration1.jpg/1280px-CSIRO_ScienceImage_3881_Five_Antennas_at_Narrabri_-_restoration1.jpg"
 				style={{width: "40em", height: "auto"}}/>
 				<div className="caption">
-					The Australian Telescope Compact Array (ATCA), Paul Wild Observatory, Narrabri, Central North NSW. This image shows five of the six 22m radio telescopes arranged in a short baseline configuration on the East-West rail. The telescopes can be moved along a rail to change the "baseline" between them.
+					[2] The Australian Telescope Compact Array (ATCA), Paul Wild Observatory, Narrabri, Central North NSW. This image shows five of the six 22m radio telescopes arranged in a short baseline configuration on the East-West rail. The telescopes can be moved along a rail to change the "baseline" between them.
 				</div>
 			</p>
 			<p>
@@ -174,7 +174,7 @@ const EPortfolio = () => {
 						<img src="https://www.csiro.au/~/media/Astronomy/Images/CubeSat/CSIROsat-1-render.png?mw=957&hash=1B10235BD588A00F2D4D812118BF50ABC7C72610"
 							style={{width: "25em", height: "auto"}}/>
 						<p className="caption">
-							A render of CSIROSat-1 orbiting over Australia. CSIROSat-1 will be used to observe Australia in the Short Wave InfraRed (SWIR) bands. A significant part of my internship is dedicated to this project.
+							[3] A render of CSIROSat-1 orbiting over Australia. CSIROSat-1 will be used to observe Australia in the Short Wave InfraRed (SWIR) bands. A significant part of my internship is dedicated to this project.
 						</p>
 					</div>
 				</div>

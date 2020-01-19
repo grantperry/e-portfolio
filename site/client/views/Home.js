@@ -35,6 +35,7 @@ const SideBlock = ({name, img}) => (
 			<Link to="#education">Education</Link>
 			<Link to="#achievements">Achievements</Link>
 			<Link to="#interests">Interests</Link>
+			<Link to="#references">References</Link>
 		</div>
 	</div>
 );
@@ -57,7 +58,21 @@ const Home = () => {
 					<Education/>
 					<Achievements/>
 					<Interests/>
-					<div className="endblock"/>
+					<div className="endblock"
+						id="references">
+						<h2>References</h2>
+						<ol>
+							<li>
+								T. Neubert, "Block Diagram of the Atmo Cube," [Online]. Available: https://www.researchgate.net/profile/Tom_Neubert2/publication/332210246/figure/fig7/AS:744014353530880@1554398253226/Block-diagram-of-the-AtmoCube-A1-payload-electronics-for-details-see-Neubert-et-al-20.png.
+							</li>
+							<li>
+								C. John Masterson, "Five Antennas at Narrabri," [Online]. Available: https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/CSIRO_ScienceImage_3881_Five_Antennas_at_Narrabri_-_restoration1.jpg/1280px-CSIRO_ScienceImage_3881_Five_Antennas_at_Narrabri_-_restoration1.jpg.
+							</li>
+							<li>
+								CASS, CSIRO, "CSIROSat-1 render," [Online]. Available: https://www.csiro.au/~/media/Astronomy/Images/CubeSat/CSIROsat-1-render.png?mw=957&hash=1B10235BD588A00F2D4D812118BF50ABC7C72610.
+							</li>
+						</ol>
+					</div>
 				</div>
 			</div>
 		</ResumeContextProvider>
