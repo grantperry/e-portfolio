@@ -35,7 +35,7 @@ const Current = () => {
 				<h2>What I do</h2>
 				<p className="blurb">
 					My passion is integrating science with technology.
-					I'm a graduating BSc Electronics student with a keen interest in systems programming. I am currently writing hardware drivers and software for embedded applications in the aerospace and cube-sat industries. I am doing a summer internship at CASS, CSIRO Marsfield.
+					I am a graduating BSc Electronics student with a keen interest in systems programming. I am currently writing hardware drivers and software for embedded applications in the aerospace and cube-sat industries during a summer internship at CASS, CSIRO Marsfield.
 				</p>
 				<div className="skills">
 					{

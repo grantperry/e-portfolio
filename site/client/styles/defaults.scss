@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6, span {
 	}
 }
 
-.educations, .experiences, .achievements, .intro, .current {
+.educations, .experiences, .achievements, .intro, .current, .e-portfolio, .portfolio-expose {
 	padding: 2em;
 
 	h2 {
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6, span {
 }
 
 // Shade every second section
-.experiences, .achievements, .endblock {
+.experiences, .achievements, .endblock, .portfolio-expose {
 	background-color: $shade-colour;
 }
 
@@ -181,4 +181,35 @@ h1, h2, h3, h4, h5, h6, span {
 	p {
 		margin-top: 0.1em;
 	}
+}
+
+.e-portfolio {
+	.split {
+		display: flex;
+		flex-direction: row;
+		.left {
+			margin-right: 1em;
+		}
+	}
+
+	.expose {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+
+		.part {
+			background-color: $bg-colour;
+			margin: 0.3em;
+			padding: 0.5em;
+			cursor: pointer;
+
+			a {
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
+.caption {
+	font-style: italic;
 }

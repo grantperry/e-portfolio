@@ -14,7 +14,7 @@ export default [
 		endDate: new Date("2019-11-21"),
 	},
 	{
-		position: "Assisant TSO - Turramurra High School",
+		position: "Assisant Technical Support Officer - Turramurra High School",
 		organisation: "Department of Education and Training NSW",
 		comment: "Student device support, laptop technician, audio/video/lighting technical assistance.",
 		startDate: new Date("2016-12-01"),

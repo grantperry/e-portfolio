@@ -58,12 +58,12 @@ export default [
 			"https://wiki.lazarus.freepascal.org/images/5/5c/Logo-Android.png",
 			"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin-logo.svg/1024px-Kotlin-logo.svg.png",
 		],
-		blurb: "An in house event management app written for the Android Platform.",
+		blurb: "An in-house event management app written for the Android Platform.",
 	},
 	{
 		name: "Design + Manufacture of PCBs",
 		imgs: ["https://www.saashub.com/images/app/service_logos/21/33c953e9185e/large.png?1544874024"],
-		blurb: "Experience designing PCB’s using KiCAD. I have also pritned etched and soldered double sided PCBs. I developed a method for printing and etching of PCB’s during my HSC D&T project.",
+		blurb: "Experience designing PCB’s using KiCAD. I have also printed etched and soldered double-sided PCBs. I developed a method for printing and etching of PCB’s during my HSC D&T project.",
 	},
 	{
 		name: "Customer Service",

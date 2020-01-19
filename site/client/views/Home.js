@@ -6,7 +6,8 @@ import Education from "./Education";
 import Achievements from "./Achievements";
 import Intro from "./Intro";
 import Current from "./Current";
-import Intersts from "./Interests";
+import Interests from "./Interests";
+import EPortfolio from "./EPortfolio";
 
 const name = "Grant Perry";
 
@@ -28,11 +29,12 @@ const SideBlock = ({name, img}) => (
 
 		<div className="contents">
 			<Link to="/">Me</Link>
+			<Link to="#e-portfolio">E-Portfolio</Link>
 			<Link to="#what_i_do">What I do</Link>
 			<Link to="#experience">Experience</Link>
 			<Link to="#education">Education</Link>
 			<Link to="#achievements">Achievements</Link>
-			<Link to="#interests">Interestes</Link>
+			<Link to="#interests">Interests</Link>
 		</div>
 	</div>
 );
@@ -49,11 +51,12 @@ const Home = () => {
 				/>
 				<div className="body">
 					<Intro name={name}/>
+					<EPortfolio/>
 					<Current/>
 					<Experience/>
 					<Education/>
 					<Achievements/>
-					<Intersts/>
+					<Interests/>
 					<div className="endblock"/>
 				</div>
 			</div>
