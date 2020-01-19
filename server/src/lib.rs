@@ -9,6 +9,7 @@ use rocket_contrib::serve::StaticFiles;
 
 pub fn init() {
     rocket::ignite()
+        .mount("/", StaticFiles::from("/dist"))
         .mount("/", routes![page])
         .launch();
 }
