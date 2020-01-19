@@ -5,7 +5,7 @@ export default [
 	},
 	{
 		name: "Circus Skills",
-		blurb: "I'm a keen unicycle rider (I have 3) and also I enjoy practicing circus skills. These include slack lining (tight rope), fire twirling and juggling.",
+		blurb: "I'm a keen unicycle rider (I have 3) and also I enjoy practising circus skills. These include slack lining (tight rope), fire twirling and juggling.",
 	},
 	{
 		name: "Tuba and Trombone",

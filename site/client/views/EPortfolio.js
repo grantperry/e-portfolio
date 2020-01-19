@@ -3,9 +3,11 @@ import React, { useState, useEffect } from "react";
 
 export const P1 = () => {
 	return (
-		<p>
+		<div>
 			<h2>Linux Kernel Modules</h2>
-			A primary objective of the summer internship was for me to learn how to write functional and safe Linux Kernel Modules to interface with payload subsystems and their interfaces. <b>Due to IP and confidentiality clauses in my contract, I am unable to expose any code, or specific implementaition details from this project, that have not already been published by the CSIRO or our partners.</b>
+			<p>
+				A primary objective of the summer internship was for me to learn how to write functional and safe Linux Kernel Modules to interface with payload subsystems and their interfaces. <b>Due to IP and confidentiality clauses in my contract, I am unable to expose any code, or specific implementaition details from this project, that have not already been published by the CSIRO or our partners.</b>
+			</p>
 			<p>
 				I have written a driver for the ArduCam payload. This involved taking code written by a previous intern and determining how to make the payload work on the CubeSat Processor. To achieve this, I had to establish the systems that interface with the ArduCam and advise my colleagues to make changes to the hardware configurations. Edits to the Linux kernel were made to correctly configure the i2c and SPI busses (as these are how the ArduCam communicates with a processor). The software/driver written is functioning on the test hardware and is able to capture images to non-volatle storage.
 			</p>
@@ -27,15 +29,17 @@ export const P1 = () => {
 					style={{width: "100%", height: "auto"}}/>
 			Block diagram of a similar Main Mission Module and it's payloads. It shows the complex relationship between the SoC (Processor) and payloads (the left two peripherals). My project deals with the communications implied by the arrows in this diagram.
 			</p>
-		</p>
+		</div>
 	);
 };
 
 export const P2 = () => {
 	return (
-		<p>
+		<div>
 			<h2>Understanding the payload subsystems and their interfaces</h2>
-			To develop the software for my project, I need a sound global understanding of the Main Mission Module, payloads and their interactions with one another.
+			<p>
+				To develop the software for my project, I need a sound global understanding of the Main Mission Module, payloads and their interactions with one another.
+			</p>
 			<p>
 				I learn from my colleagues how their payloads operate in a strong team environment. There is lots of active discussion and physical demonstration of the various payloads by their respective developers. Intially my steep learning curve required a lot of 1 on 1 time with my colleagues, but this has developed to more spontaneous discussion of design decisions as a team.
 			</p>
@@ -48,13 +52,13 @@ export const P2 = () => {
 			<p>
 				My experience in gaining knowledge of payload systems and their interfaces has been novel, and I've developed a new appreciation for the role of adequate and accurate documentation in engineering. I believe this will improve my future performance as a Software or Electronics Engineer.
 			</p>
-		</p>
+		</div>
 	);
 };
 
 export const P3 = () => {
 	return (
-		<p>
+		<div>
 			<h2>Developing an overarching knowledge of the activites and operations supported by CASS, ATNF, SPT and ATCA</h2>
 			<p style={{width: "min-content"}}>
 				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/CSIRO_ScienceImage_3881_Five_Antennas_at_Narrabri_-_restoration1.jpg/1280px-CSIRO_ScienceImage_3881_Five_Antennas_at_Narrabri_-_restoration1.jpg"
@@ -84,7 +88,7 @@ export const P3 = () => {
 			<p>
 				I have developed a deep respect for radio astronomy and the scientists and engineers who enable us to view the universe that is beyond our sight.
 			</p>
-		</p>
+		</div>
 	);
 };
 
@@ -181,7 +185,8 @@ const EPortfolio = () => {
 				id="expose">
 				<div className="content">
 					{renderedPart}
-					<a onClick={() => close}>Return to E-Portfolio directory</a>
+					<a style={{cursor:"pointer", fontSize: "2em", marginTop: "1em"}}
+						onClick={close}>Return to E-Portfolio directory</a>
 				</div>
 			</div>
 		}
